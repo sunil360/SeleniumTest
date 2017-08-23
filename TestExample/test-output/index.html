@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sunilk\AppData\Local\Temp\testng-eclipse-1319754042\testng-customsuite.xml</span>
+                    <span>C:\Users\sunilk\AppData\Local\Temp\testng-eclipse--1032265246\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maventest.TestExample.DataProviderClass" hash-for-method="testMethod(one)">testMethod(one)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maventest.TestExample.DataProviderClass" hash-for-method="testMethod(Third)">testMethod(Third)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -151,6 +156,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testMethod(Third)">
+                  </a> <!-- testMethod(Third) -->
+                  <span class="method-name">testMethod</span>
+                  <span class="parameters">(Third)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testMethod(two)">
                   </a> <!-- testMethod(two) -->
                   <span class="method-name">testMethod</span>
@@ -162,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sunilk\AppData\Local\Temp\testng-eclipse-1319754042\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sunilk\AppData\Local\Temp\testng-eclipse--1032265246\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -211,7 +224,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMethod')
 data.setCell(0, 2, 'com.maventest.TestExample.DataProviderClass')
@@ -219,11 +232,15 @@ data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testMethod')
 data.setCell(1, 2, 'com.maventest.TestExample.DataProviderClass')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testMethod')
 data.setCell(2, 2, 'com.maventest.TestExample.DataProviderClass')
 data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod')
+data.setCell(3, 2, 'com.maventest.TestExample.DataProviderClass')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -261,14 +278,18 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testMethod(one)</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod(two)</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMethod(third)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod(Third)</span>
                 <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
