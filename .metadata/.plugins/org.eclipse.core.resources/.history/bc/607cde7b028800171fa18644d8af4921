@@ -1,0 +1,9 @@
+package com.maventest.TestExample;
+
+import org.testng.annotations.Test;
+
+public class AssertionExamples {
+  @Test
+  public void f() {
+  }
+}

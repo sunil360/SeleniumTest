@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <parameter name="sUsername" value="sunilk@360logica.com"/>
-    <parameter name="sPassword" value="sunil360"/>
+    <parameter name="sPassword" value="testestest"/>
     <classes>
-      <class name="com.maventest.TestExample.TestngParameters">
+      <class name="com.maventest.TestExample.NavigationExamples">
         <methods>
-          <include name="test" invocation-numbers="0"/>
+          <include name="NavigateToBack"/>
+          <include name="Refresh"/>
+          <include name="NavigateTo"/>
+          <include name="NavigateToForward"/>
         </methods>
-      </class> <!-- com.maventest.TestExample.TestngParameters -->
+      </class> <!-- com.maventest.TestExample.NavigationExamples -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

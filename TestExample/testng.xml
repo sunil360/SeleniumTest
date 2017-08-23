@@ -7,7 +7,7 @@
  
 		<classes>
  
-		    <class name="com.maventest.TestExample.TestNGFactory" />
+		    <class name="com.maventest.TestExample.NavigationExamples" />
  
 		</classes>
   </test> <!-- Test -->
