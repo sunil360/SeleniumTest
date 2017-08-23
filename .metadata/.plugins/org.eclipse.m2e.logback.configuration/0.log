@@ -1677,3 +1677,7 @@
 2017-08-23 15:23:04,458 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
 2017-08-23 15:23:04,463 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-08-23 15:23:04,463 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-08-23 15:32:35,358 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-23 15:32:35,358 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-08-23 15:32:35,359 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-23 15:32:35,359 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
