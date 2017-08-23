@@ -39,7 +39,8 @@ public class NavigationExamples {
 	  driver.navigate().refresh();
 	  System.out.println("Browser gets refreshed");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-  }  
+  }
+  
   
   @Test(priority=0)
   public void NavigateToBack()
@@ -49,5 +50,12 @@ public class NavigationExamples {
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }
   
-   
+  @Test(priority=1)
+  public void Refresh2()
+  {
+	  driver.navigate().refresh();
+	  System.out.println("Browser gets refreshed");
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+  }
+  
 }
