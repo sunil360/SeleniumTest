@@ -1,0 +1,9 @@
+package com.maventest.TestExample;
+
+import org.testng.annotations.Test;
+
+public class TestNGFactory {
+  @Test
+  public void f() {
+  }
+}

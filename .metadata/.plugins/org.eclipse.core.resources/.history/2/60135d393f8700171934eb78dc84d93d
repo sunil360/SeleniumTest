@@ -1,0 +1,15 @@
+package com.maventest.TestExample;
+
+import org.hamcrest.Factory;
+import org.testng.annotations.Test;
+
+public class FactoryTestFactory 
+{
+    @Factory
+    public Object[] factoryMethod() {
+        return new Object[] { 
+                                new FactoryTest("one"), 
+                                new FactoryTest("two") 
+                            };
+    }
+}

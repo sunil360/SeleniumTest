@@ -1,0 +1,39 @@
+package com.maventest.TestExample;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
+import org.testng.annotations.Test;
+
+public class NavigationExamples {
+	
+	WebDriver driver;
+	
+	@BeforeClass
+	public void NavigateTo()
+	{
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		driver.navigate().to("http://www.uftHelp.com");
+		System.out.println("Browser Navigated to **http://www.uftHelp.com**");
+	}
+  @Test
+  public void NavigateToForward() {
+	  driver.navigate().forward();
+	  System.out.println("Browser Navigated to Forward");
+  }
+  
+  @Test
+  public void Refresh()
+  {
+	  driver.navigate().refresh();
+	  System.out.println("Browser gets refreshed");
+  }
+  
+  
+  @Test
+  public void NavigateToBack()
+  {
+	  driver.navigate().back();
+	  System.out.println("Browser navugated to backward");
+  }
+  
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12" started-at="2017-08-17T13:59:53Z" finished-at="2017-08-17T13:59:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12" started-at="2017-08-17T13:59:53Z" finished-at="2017-08-17T13:59:53Z">
+      <class name="com.maventest.TestExample.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.maventest.TestExample.NewTest@3d8c7aca]" name="beforeClass" is-config="true" duration-ms="6" started-at="2017-08-17T19:29:53Z" finished-at="2017-08-17T19:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.maventest.TestExample.NewTest@3d8c7aca]" name="f" duration-ms="1" started-at="2017-08-17T19:29:53Z" finished-at="2017-08-17T19:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.maventest.TestExample.NewTest@3d8c7aca]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-17T19:29:53Z" finished-at="2017-08-17T19:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.maventest.TestExample.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+package com.maventest.TestExample;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class TestngParameters {
+
+	private static WebDriver driver;
+
+	  @Test 
+
+	 @Parameters({ "sUsername", "sPassword" })
+
+	  public void test() {
+		 System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		 driver = new FirefoxDriver();
+
+	      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+	      driver.get("https://accounts.google.com");
+
+	      driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("sUsername");
+	      driver.findElement(By.xpath("//div[@class='ZFr60d CeoRYc']")).click();   
+	      System.out.println("Email Entered");
+	      driver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']")).sendKeys("sPassword");
+	      driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
+	      System.out.println("Password Entered");
+	      
+	      
+
+	      //driver.quit();
+
+	  }
+
+	}

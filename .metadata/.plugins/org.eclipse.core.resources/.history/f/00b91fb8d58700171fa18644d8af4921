@@ -1,0 +1,29 @@
+package com.maventest.TestExample;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.*;
+import org.testng.annotations.Test;
+
+public class NavigationExamples {
+	
+	WebDriver driver;
+	
+	@BeforeClass
+	public void NavigateTo()
+	{
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		driver.navigate().to("http://www.uftHelp.com");
+	}
+  @Test
+  public void NavigateToForward() {
+	  driver.navigate().forward();
+  }
+  
+  @Test
+  public void Refresh()
+  {
+	  driver.navigate().refresh();
+  }
+  
+  
+}
