@@ -7,7 +7,7 @@
  
 		<classes>
  
-		    <class name="com.maventest.TestExample.NavigationExamples" />
+		    <class name="com.maventest.TestExample.TestngParameters" />
  
 		</classes>
   </test> <!-- Test -->

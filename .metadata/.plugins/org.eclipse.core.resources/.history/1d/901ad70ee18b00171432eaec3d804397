@@ -1,0 +1,26 @@
+package com.learnings.test;
+
+import java.util.LinkedList;
+
+import org.testng.annotations.Test;
+
+public class LinkedListExample {
+	
+	@Test
+	public void linkedListExample()
+	{
+		LinkedList<Int> llist= new LinkedList<Int>();
+		
+		llist.add(1);
+		llist.add(2);
+		llist.add(3);
+		llist.add(4);
+		
+		System.out.println(llist);
+		
+		
+		
+	}
+	
+
+}

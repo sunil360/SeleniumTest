@@ -1,0 +1,30 @@
+package com.learnings.test;
+
+import java.util.*;
+
+public class ArrayListExample {	
+	
+	public static void main(String [] args)
+	{
+		ArrayList<String> arrayList= new ArrayList<String>();
+		arrayList.add("Sunil");
+		arrayList.add("Akhilesh");
+		arrayList.add("Parmendra");
+		arrayList.add("Mohit");
+		arrayList.add("Abhinav");
+		arrayList.add("Rajneesh");
+		
+			
+		
+		for(String obj:arrayList)
+		{
+			System.out.println(obj);
+		}
+		
+		System.out.println(arrayList.size());
+		System.out.println("==============================================");
+		
+				
+	}
+
+}

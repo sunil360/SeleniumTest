@@ -5,14 +5,11 @@
     <parameter name="sUsername" value="sunilk@360logica.com"/>
     <parameter name="sPassword" value="testestest"/>
     <classes>
-      <class name="com.maventest.TestExample.NavigationExamples">
+      <class name="com.maventest.TestExample.TestngParameters">
         <methods>
-          <include name="NavigateToBack"/>
-          <include name="Refresh"/>
-          <include name="NavigateTo"/>
-          <include name="NavigateToForward"/>
+          <include name="test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.maventest.TestExample.NavigationExamples -->
+      </class> <!-- com.maventest.TestExample.TestngParameters -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

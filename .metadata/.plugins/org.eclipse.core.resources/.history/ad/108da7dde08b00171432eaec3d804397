@@ -1,0 +1,15 @@
+package com.learnings.test;
+
+import java.util.LinkedList;
+
+public class LinkedListExample {
+	
+	@Test
+	public void linkedListExample()
+	{
+		LinkedList<String> llist= new LinkedList<String>();
+		
+	}
+	
+
+}

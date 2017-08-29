@@ -1,0 +1,16 @@
+package com.maventest.TestExample;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertVerifyExample {
+	
+	String className = "HardAssertions";
+	@Test
+	public void test_UsingHardAssertion() {
+	Assert.assertTrue(true == true);
+	Assert.assertEquals("HardAssertion", "HardAssertion", "Passed");
+	Assert.assertEquals(className, "HardAssertions", "Passed With class name");
+	System.out.println("Successfully passed!");
+	}
+	}

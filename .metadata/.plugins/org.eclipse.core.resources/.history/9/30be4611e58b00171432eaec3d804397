@@ -1,0 +1,36 @@
+package com.learnings.test;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Book {
+	
+	int id, quantity;
+	String name, author, publisher;
+	
+	public Book(int id, int quantity, String name, String author, String publisher)
+	{
+		this.id=id;
+		this.quantity=quantity;
+		this.name=name;
+		this.author=author;
+		this.publisher=publisher;
+	}
+}
+
+	public class LinkedListExample
+	{
+		public static void main(String[] args)
+		{
+			List<Book> book= new LinkedList<Book>();
+			Book b1=new Book(101,8,"Let us C","Yashwant Kanetkar","BPB");  
+		    Book b2=new Book(102,4, "Data Communications & Networking","Forouzan","Mc Graw Hill");  
+		    Book b3=new Book(103,6, "Operating System","Galvin","Wiley");  
+		    
+		    book.add(b1);
+		    book.add(b2);
+		    book.add(b3);
+		    
+		}
+	
+}
