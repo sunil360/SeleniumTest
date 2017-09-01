@@ -1,0 +1,21 @@
+package com.learnings.test;
+
+public class ObjectsClass {
+	
+	//private String filename="jshdhajkshdjadkshd";
+	
+	public static void main(String[] args) throws Exception
+	{
+	
+	/*String filename="jshdhajkshdjadkshd";
+	
+	FileExample obj= new FileExample(filename);
+	obj.readApplicationFile(filename);*/
+		String chrome="Chrome";
+		
+		if (chrome.toLowerCase().equals("true")) {
+			System.out.println(chrome);
+		}
+			
+	}
+}

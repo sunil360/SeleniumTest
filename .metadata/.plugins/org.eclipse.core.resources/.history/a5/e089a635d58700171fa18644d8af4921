@@ -1,9 +1,0 @@
-package com.maventest.TestExample;
-
-import org.testng.annotations.Test;
-
-public class NavigationExamples {
-  @Test
-  public void f() {
-  }
-}

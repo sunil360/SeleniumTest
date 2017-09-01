@@ -1,0 +1,5 @@
+package com.maventest.TestExample.MultipleActions;
+
+public class RightClickAction {
+
+}

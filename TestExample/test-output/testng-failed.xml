@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.maventest.TestExample.TestngParameters">
+      <class name="com.maventest.TestExample.MultipleActions.RightClickAction">
         <methods>
-          <include name="test"/>
+          <include name="rightClickTest"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- com.maventest.TestExample.TestngParameters -->
+      </class> <!-- com.maventest.TestExample.MultipleActions.RightClickAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

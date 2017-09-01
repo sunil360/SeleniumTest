@@ -1,0 +1,51 @@
+package com.maventest.TestExample.MultipleActions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+public class RightClickAction {
+	
+
+WebDriver driver;
+	
+	String URL = "http://medialize.github.io/jQuery-contextMenu/demo.html";
+	
+	@BeforeClass
+	public void Setup() {
+		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void rightClickTest() throws InterruptedException {
+		driver.get("https://accounts.google.com"); 	
+		Actions action = new Actions(driver);
+		
+		//WebElement nextBtn = driver.findElement(By.xpath("//content[@class='CwaK9']"));
+		WebElement element = driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[1]/div[1]/div/div[1]/div/div[1]/input"));
+		action.moveToElement(element).click()
+		.keyDown(element,Keys.SHIFT).sendKeys(element, "sunil")
+		.keyUp(element, Keys.SHIFT).build();
+		action.perform();
+		//action.moveToElement(nextBtn).clickAndHold().perform();
+		//action.doubleClick(nextBtn).perform();
+		//action.moveToElement(element).contextClick().perform();		
+		//Thread.sleep just for user to notice the event
+		Thread.sleep(3000);
+		
+		//Closing the driver instance
+		//driver.quit();
+	}
+	
+	
+}
+

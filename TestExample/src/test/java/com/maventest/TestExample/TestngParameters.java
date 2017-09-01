@@ -30,15 +30,13 @@ public class TestngParameters {
 	      driver.get("https://accounts.google.com");
 	     // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	     	      
-	     WebElement element = driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[1]/div[1]/div/div[1]/div/div[1]/input"));
-	      element.sendKeys("Sunil");
-	      Actions builder = new Actions(driver); 
-	      Action act = builder.moveToElement(element)
-	                          .keyDown(element,Keys.SHIFT)
-	                          .sendKeys("Sandeep")
-	                          .keyUp(Keys.SHIFT)
-	                          .build();
-	      act.perform();
+	      //WebElement element = driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[1]/div[1]/div/div[1]/div/div[1]/input"));
+	      WebElement element1= driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[2]/div[1]/div/div[2]"));
+
+         Actions builder= new Actions(driver);
+         builder.moveToElement(element1).click().perform();
+        //builder.moveToElement(element).contextClick().build().perform();
+         //act.perform();
 	      
 	  /*  WebElement element=driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[1]/div[1]/div/div[1]/div/div[1]/input"));
 	    Actions builder= new Actions(driver);

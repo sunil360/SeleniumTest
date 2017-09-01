@@ -1,0 +1,15 @@
+package com.learnings.test;
+
+public class ObjectsClass {
+	
+	//private String filename="jshdhajkshdjadkshd";
+	
+	public static void main(String[] args)
+	{
+	
+	String filename="jshdhajkshdjadkshd";
+	
+	FileExample obj= new FileExample(filename);
+	
+	}
+}

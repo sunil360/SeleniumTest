@@ -1,0 +1,10 @@
+package com.learnings.test;
+
+public class ObjectsClass {
+	
+	private String filename="jshdhajkshdjadkshd";
+	
+	FileExample obj= new FileExample(filename);
+	
+
+}

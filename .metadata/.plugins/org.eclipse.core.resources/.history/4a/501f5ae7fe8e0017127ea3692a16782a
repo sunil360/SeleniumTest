@@ -1,0 +1,29 @@
+package com.strings.classes;
+
+public class StringDemo {
+	public static void main(String[] args)
+	{
+		char [] helloarray= {'h','e','l','l','o', '.'};
+		int flag =0;
+		String hellostring= new String(helloarray);
+		System.out.println(hellostring);
+		int length=hellostring.length();
+		System.out.println(length);
+		
+	    String palindrome = "Dot saw I was Tod";
+	    System.out.println( palindrome );
+	    int len = palindrome.length();
+	    System.out.println( "String Length is : " + len );
+	    System.out.println("This " + palindrome + " siht");
+	    
+	    for(int i=0; i<len; i++)
+	    {
+	    	 if(palindrome[i]==palindrome[len-i-1])
+	    	 flag=flag+1;
+	    }
+		if(flag==len)
+            System.out.println("\nTHE STRING IS PALINDROM"); else
+            	System.out.println("\nTHE STRING IS NOT PALINDROM");
+	}
+
+}

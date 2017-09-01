@@ -1,0 +1,13 @@
+package IOStreamExamples;
+
+import java.io.FileOutputStream;
+
+public class WriteFileUsingFileOutputStream {
+	
+	public static void main(String[] args)
+	{
+		
+		FileOutputStream fos= null;
+	}
+
+}

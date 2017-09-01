@@ -1,0 +1,10 @@
+package IOStreamExamples;
+
+public class FileWriteUsingBufferWriter {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
