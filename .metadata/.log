@@ -740,3 +740,63 @@ java -ea -classpath E:\Sunil\eclipse-SDK-4.7-win32-x86_64\eclipse\plugins\org.te
 
 !ENTRY org.eclipse.jdt.core 4 0 2017-08-31 19:54:24.457
 !MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar
+!SESSION 2017-09-01 11:40:00.391 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 18:55:27.435
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+!SESSION 2017-09-01 18:56:25.811 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 18:56:37.167
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+!SESSION 2017-09-01 19:31:07.675 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 19:31:23.177
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 19:31:26.570
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 19:31:34.161
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-09-01 19:31:34.181
+!MESSAGE Invalid ZIP archive: C:\Users\sunilk\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar
+!SESSION 2017-09-05 15:34:38.882 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 15:35:07.834
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 15:35:08.077
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 15:35:08.092
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 16:23:57.611
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 16:23:57.639
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-05 16:23:57.649
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details

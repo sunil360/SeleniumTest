@@ -1,0 +1,10 @@
+package com.learnings.test;
+
+public class RuntimePolymorphism {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

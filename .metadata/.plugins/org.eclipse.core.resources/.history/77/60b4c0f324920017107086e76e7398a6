@@ -1,0 +1,36 @@
+package IOStreamExamples;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadPropertyFile {
+	public static void main(String[] args)
+	{
+		File file= new File("PropertiesFolder\\Test.properties");
+		FileInputStream fileInput= null;
+		
+		try
+		{
+			fileInput= new FileInputStream(file);
+			
+					}
+		catch(FileNotFoundException fnfe)
+		{
+			System.out.println(fnfe);
+		}
+		
+		Properties prop= new Properties();
+		//load properties file
+				try {
+					prop.load(fileInput);
+				    } 
+				catch (IOException e) {
+					e.printStackTrace();
+				}
+		
+	}
+
+}

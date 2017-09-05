@@ -1,0 +1,23 @@
+package IOStreamExamples;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class ReadPropertyFile {
+	public static void main(String[] args)
+	{
+		File file= new File("PropertiesFolder\\Test.properties");
+		FileInputStream fileinputstream= null;
+		
+		try
+		{
+			fileinputstream= new FileInputStream(file);
+		}
+		catch(IOException ioe)
+		{
+			System.out.println(ioe);
+		}
+	}
+
+}
