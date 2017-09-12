@@ -1,9 +1,0 @@
-package com.strings.classes;
-
-public class StringDemo {
-	public static void main(String[] args)
-	{
-		
-	}
-
-}

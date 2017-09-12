@@ -1,0 +1,34 @@
+package com.learnings.test;
+
+abstract class  shape{
+	
+	abstract void display();
+	
+}
+
+class circle extends shape
+{
+	void display()
+	{
+		System.out.println("This is circle class");
+	}
+}
+
+class triangle extends shape
+{
+	void display()
+	{
+		System.out.println("This is triangle class");
+	}
+}
+
+public class AbstractClassDemo
+ {
+	
+	public static void main(String args[])
+	{
+		shape abc= new circle();
+		abc.display();
+	}
+	
+}

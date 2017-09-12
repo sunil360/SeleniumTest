@@ -1,0 +1,26 @@
+package com.selectclass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class SeectClassDemo {
+	
+	public void selectClassTest()
+	{
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		driver.get("https://saksoft.empxtrack.com/empxtrack/logon.do?activity=display&location=saksoft");
+		
+		WebElement element=driver.findElement(By.id("location"));
+		Select select= new Select(element);
+		select.selectByVisibleText("360Logica");
+		
+		driver.quit();
+			
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.learnings.test;
+
+abstract class AbstractClassDemo {
+	
+	abstract void display();
+	
+}
+
+class ObjectDemo extends AbstractClassDemo
+{
+	void display()
+	{
+		System.out.println("This is abstract method of class A");
+	}
+}
+
+class myTest
+ {
+	
+	public static void main(String args[])
+	{
+		AbstractClassDemo abc= new ObjectDemo();
+		abc.display();
+	}
+	
+}

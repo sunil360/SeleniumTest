@@ -1,0 +1,42 @@
+package com.learnings.test;
+
+public interface InterfaceTestDemo {
+	
+	public default void defaultMethod()
+	{
+		System.out.println("This is default method");
+	}
+	
+	public static void staticMethod()
+	{
+		System.out.println("This is static method of interface");
+	}
+	
+	 void show();
+	  void display();
+
+}
+
+class B implements InterfaceTestDemo
+{
+	public void show()
+	{
+		System.out.println("This is show method");
+	}
+	
+	public void display()
+	{
+		System.out.println("This is show method");
+	}
+	
+}
+
+ public class InterfaceDemo
+ {
+	 public static void main(String args[])
+	 {
+		 B objb= new B();
+		 objb.defaultMethod();
+		 objb.display();
+	 }
+ }

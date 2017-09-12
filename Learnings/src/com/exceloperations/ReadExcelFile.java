@@ -23,7 +23,7 @@ public class ReadExcelFile {
            // Load workbook
            XSSFWorkbook wb=new XSSFWorkbook(fis);
            
-           // Load sheet- Here we are loading first sheetonly
+           // Load sheet- Here we are loading first sheet only
               XSSFSheet sh1= wb.getSheet("DeviceList");
               
          
@@ -43,6 +43,8 @@ public class ReadExcelFile {
            System.out.print(sh1.getRow(3).getCell(0).getNumericCellValue());
 
            System.out.println("  " +sh1.getRow(3).getCell(1).getStringCellValue());
+           
+           
            
            //System.out.println("File found");
 

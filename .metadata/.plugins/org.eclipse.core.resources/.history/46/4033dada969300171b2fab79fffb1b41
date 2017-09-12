@@ -1,0 +1,30 @@
+package com.exceloperations;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class ExcelDemoReadWrite {
+	
+	public static void main(String args[]) throws IOException
+	{
+		String path="D:\\manual.xls";
+		HSSFWorkbook wb= new HSSFWorkbook();
+		HSSFSheet hs= wb.createSheet("Sheet1");
+		
+		HSSFRow r=hs.createRow(0);
+		HSSFCell c=r.createCell(0);
+		c.setCellValue("Celll");
+		
+		FileOutputStream fileoutput= new FileOutputStream(path);
+		wb.write(fileoutput);
+		fileoutput.flush();
+		fileoutput.close();
+	}
+
+}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.learnings.test.LinkedListExample">
+      <class name="com.reporting.ForTestReporter">
         <methods>
-          <include name="linkedListExample"/>
+          <include name="testReporterTwo"/>
         </methods>
-      </class> <!-- com.learnings.test.LinkedListExample -->
+      </class> <!-- com.reporting.ForTestReporter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,15 @@
+package com.selectclass;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SeectClassDemo {
+	
+	public void selectClassTest()
+	{
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\sunilk\\workspace\\TestExample\\Drivers\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		
+	}
+
+}
