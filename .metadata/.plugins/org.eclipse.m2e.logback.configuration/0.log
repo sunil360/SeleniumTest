@@ -2694,3 +2694,430 @@
 2017-09-12 13:30:15,585 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
 2017-09-12 13:30:15,588 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-09-12 13:30:15,593 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-13 10:03:38,334 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Flipkart:Flipkart:0.0.1-SNAPSHOT @ E:\Sunil\Projects\Flipkart\pom.xml.
+2017-09-13 10:03:39,084 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:39,084 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:39,116 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:42,782 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:42,782 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:42,798 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-13 10:03:43,568 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:03:43,599 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-13 10:03:43,599 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:03:43,599 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-09-13 10:03:45,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:03:45,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-09-13 10:03:45,073 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:03:45,073 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-09-13 10:03:45,077 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 10:03:45,126 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
+2017-09-13 10:03:45,127 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 10:03:45,131 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-13 10:22:21,125 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:22:21,129 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-13 10:22:21,134 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:22:21,137 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-09-13 10:22:21,342 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:22:21,345 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-09-13 10:22:21,346 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-13 10:22:21,346 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-09-13 10:22:21,349 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 10:22:21,356 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
+2017-09-13 10:22:21,357 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 10:22:21,368 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-14 10:10:09,141 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 10:10:11,294 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PHPTravels/src/main/java
+2017-09-14 10:10:11,295 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PHPTravels/src/main/resources
+2017-09-14 10:10:11,296 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PHPTravels/src/test/java
+2017-09-14 10:10:11,296 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PHPTravels/src/test/resources
+2017-09-14 10:15:42,049 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:15:42,100 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:15:42,123 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:25:57,751 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:25:57,752 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 10:30:10,306 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:30:10,306 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 10:30:54,291 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:30:54,291 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 10:33:36,458 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:33:36,458 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 10:34:16,244 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 10:34:16,292 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:16,324 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:16,330 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:17,888 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:17,909 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 10:34:17,914 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:17,915 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-09-14 10:34:19,066 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:19,072 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:19,092 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:34:19,309 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:19,323 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 10:34:19,326 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:19,349 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-09-14 10:34:21,386 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:21,391 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-09-14 10:34:21,398 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:34:21,402 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-09-14 10:34:21,413 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 10:34:21,420 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
+2017-09-14 10:34:21,421 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 10:34:21,425 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-14 10:43:39,904 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:43:39,916 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 10:54:31,395 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 10:54:31,450 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:31,492 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:31,504 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:31,986 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:31,991 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:31,999 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:54:32,212 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:54:32,213 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 10:54:32,214 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:54:32,214 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-09-14 10:58:19,920 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 10:58:19,968 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:19,974 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:19,981 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:20,555 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:20,564 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:20,572 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 10:58:20,771 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:58:20,780 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 10:58:20,781 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 10:58:20,786 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 10:59:30,431 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 10:59:30,435 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 11:02:25,202 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 11:02:25,206 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 11:02:35,723 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:02:35,730 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 11:02:35,736 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:02:35,740 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 11:03:02,417 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:03:02,421 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 11:03:02,425 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:03:02,429 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 11:03:09,736 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:03:09,740 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 11:03:09,744 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:03:09,749 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 11:05:40,717 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 11:05:40,720 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 11:05:51,126 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 11:05:51,186 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,194 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,205 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,598 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,604 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,610 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:05:51,847 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:05:51,847 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 11:05:51,848 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:05:51,848 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 11:28:37,500 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 11:28:37,501 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 11:56:04,234 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 11:56:04,273 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,281 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,290 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,489 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium.server:selenium-server-standalone:jar:3.4.0 is missing, no dependency information available
+2017-09-14 11:56:04,665 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,674 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,681 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 11:56:04,852 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium.server:selenium-server-standalone:jar:3.4.0 is missing, no dependency information available
+2017-09-14 11:56:04,874 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:56:04,881 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 11:56:04,882 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 11:56:04,883 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-14 11:56:53,063 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 11:56:53,069 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 12:00:16,972 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 12:00:17,008 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,017 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,033 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,380 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,386 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,392 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:00:17,578 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:00:17,579 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:00:17,581 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:00:17,582 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 12:00:32,033 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:00:32,034 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 12:04:49,392 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:04:49,392 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 12:07:10,984 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:07:10,990 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 12:12:33,347 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:12:33,347 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 12:37:53,967 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 12:37:54,001 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:54,024 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:54,035 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:54,292 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium.client-drivers:jar:1.0.2 is missing, no dependency information available
+2017-09-14 12:37:54,410 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:37:54,421 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:37:54,422 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:37:54,426 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:37:57,372 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:57,377 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:57,382 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:37:57,545 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium.client-drivers:jar:1.0.2 is missing, no dependency information available
+2017-09-14 12:38:21,912 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:38:21,929 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:38:21,933 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:38:21,937 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 12:43:01,573 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:43:01,573 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:43:01,574 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:43:01,580 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:47:24,388 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:47:24,391 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:47:24,397 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:47:24,400 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:47:39,764 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:47:39,764 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 12:48:52,239 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 12:48:52,242 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 12:50:24,266 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 12:50:24,310 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:50:24,321 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:50:24,331 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:50:24,604 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:50:24,604 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:50:24,605 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:50:24,623 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 12:50:25,854 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:50:25,860 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:50:25,868 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 12:52:43,677 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:52:43,681 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 12:52:43,685 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 12:52:43,686 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:01:58,119 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:01:58,120 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:01:58,120 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:01:58,121 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 13:03:22,386 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:03:22,389 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:03:22,394 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:03:22,394 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-14 13:05:45,051 [Worker-64] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-14 13:05:45,228 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 13:05:45,276 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:45,281 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:45,290 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:45,682 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PHPTravels/src/main/java
+2017-09-14 13:05:45,685 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PHPTravels/src/main/resources
+2017-09-14 13:05:45,695 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PHPTravels/src/test/java
+2017-09-14 13:05:45,698 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PHPTravels/src/test/resources
+2017-09-14 13:05:45,862 [Worker-64] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-14 13:05:52,559 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:52,564 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:52,572 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 13:05:52,760 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:05:52,764 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:05:52,764 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:05:52,768 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 13:09:20,297 [Worker-84] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 13:09:20,298 [Worker-84] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 13:10:25,722 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 13:10:25,727 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 13:10:37,945 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:37,951 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:10:37,955 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:37,959 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:10:37,963 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:37,963 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:10:37,964 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:37,968 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 13:10:38,137 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:38,138 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-09-14 13:10:38,138 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:38,138 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-09-14 13:10:38,141 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 13:10:38,146 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
+2017-09-14 13:10:38,147 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 13:10:38,154 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-14 13:10:45,638 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:45,638 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:10:45,639 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:10:45,639 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 13:10:52,039 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 13:10:52,039 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 13:13:34,715 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:13:34,718 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 13:13:34,719 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 13:13:34,722 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:15:46,835 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:15:46,836 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 14:16:39,851 [Worker-97] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:16:39,883 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:39,892 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:39,900 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:40,149 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,149 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:16:40,150 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,153 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:16:40,189 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:40,193 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:40,198 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:16:40,390 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,390 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:16:40,391 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,391 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:16:40,555 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,555 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\main\resources
+2017-09-14 14:16:40,556 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:40,556 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilk\workspace\TestExample\src\test\resources
+2017-09-14 14:16:40,561 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 14:16:40,565 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\main\resources
+2017-09-14 14:16:40,565 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-14 14:16:40,569 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Sunil\workspace\DatabaseConnectivity\jars\mysql-connector-java-5.1.43\src\doc\sources\src\test\resources
+2017-09-14 14:16:50,245 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:50,246 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:16:50,246 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:16:50,246 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:20:37,336 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:20:37,336 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:20:37,340 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:20:37,345 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:20:42,638 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:20:42,638 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 14:21:16,422 [Worker-99] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:21:16,450 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:21:16,457 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:21:16,465 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:21:16,704 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:21:16,704 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:21:16,708 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:21:16,709 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:21:17,649 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:21:17,654 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:21:17,662 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:23:46,606 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:23:46,609 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:23:46,613 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:23:46,616 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:25:20,756 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:25:20,756 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:25:20,756 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:25:20,760 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:30:46,508 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:30:46,521 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:30:46,528 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:30:46,531 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:30:46,629 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:30:46,629 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:30:46,629 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:30:46,634 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:37:59,068 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:37:59,069 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:38:23,042 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:38:23,045 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 14:38:40,532 [Worker-110] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:38:40,571 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:38:40,583 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:38:40,593 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:38:40,862 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:38:40,863 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:38:40,863 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:38:40,869 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:38:40,928 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:38:40,934 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:38:40,938 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:39:59,829 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:39:59,830 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:39:59,830 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:39:59,831 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:43:43,425 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:43:43,425 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:44:12,204 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:44:12,204 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-09-14 14:44:21,811 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:44:21,811 [Worker-112] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:44:39,860 [Worker-113] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:44:39,863 [Worker-113] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 14:45:52,907 [Worker-115] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:45:52,937 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:52,945 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:52,953 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:53,519 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:53,525 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:53,531 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:45:53,704 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:45:53,708 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:45:53,709 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:45:53,709 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:47:44,312 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:47:44,316 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:49:45,448 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:49:45,452 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:50:32,914 [Worker-121] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:50:32,946 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:50:32,954 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:50:32,962 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:50:33,163 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:50:33,166 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:50:33,167 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:50:33,167 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:51:03,246 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:51:03,254 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:51:03,262 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:51:04,565 [Worker-123] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-server/3.4.1/selenium-server-3.4.1.pom
+2017-09-14 14:51:04,570 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium-server:jar:3.4.1 is missing, no dependency information available
+2017-09-14 14:51:05,500 [Worker-123] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-server/3.4.1/selenium-server-3.4.1.jar
+2017-09-14 14:51:09,296 [Worker-119] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:51:09,300 [Worker-119] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-09-14 14:51:16,764 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:51:16,768 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:51:52,143 [Worker-121] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:51:52,147 [Worker-121] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-14 14:52:12,877 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\sunilk\workspace\PHPTravels
+2017-09-14 14:52:12,880 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-09-14 14:52:51,295 [Worker-123] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: PHPTravels:PHPTravels:0.0.1-SNAPSHOT @ C:\Users\sunilk\workspace\PHPTravels\pom.xml.
+2017-09-14 14:52:51,331 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,339 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,346 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,830 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,833 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,838 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-14 14:52:51,974 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:52:51,975 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:52:51,975 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:52:51,975 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:53:06,774 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:53:06,774 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:53:06,774 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:53:06,774 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 14:58:21,137 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:58:21,141 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 14:58:21,144 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 14:58:21,144 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 15:04:04,804 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:04:04,804 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 15:04:04,805 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:04:04,806 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 15:15:57,493 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:15:57,494 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 15:15:57,508 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:15:57,509 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 15:23:25,254 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:23:25,255 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 15:23:25,255 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:23:25,256 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 15:30:33,823 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:30:33,835 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 15:30:33,838 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 15:30:33,839 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 16:50:30,519 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 16:50:30,531 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 16:50:30,532 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 16:50:30,555 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-14 17:02:07,763 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 17:02:07,789 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-14 17:02:07,794 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-14 17:02:07,795 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources

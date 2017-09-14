@@ -1,0 +1,15 @@
+package com.selectclass;
+
+public class TestClass {
+	
+	public void Testdis()
+	{
+		System.out.println("sadasdasda");
+	}
+
+}
+
+class Test12
+{
+	
+}

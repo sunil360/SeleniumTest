@@ -1,0 +1,13 @@
+package com.selectclass;
+
+class DisplayClass
+{
+	public void display()
+	{
+		System.out.println("This is for display");
+	}
+}
+
+public class Test12345 {
+
+}

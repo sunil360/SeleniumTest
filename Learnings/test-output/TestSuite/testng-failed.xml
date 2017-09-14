@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSuite]" parallel="methods">
+  <test name="testGuru(failed)" parallel="methods">
+    <classes>
+      <class name="com.multiBrowseTesting.ParallelTesting">
+        <methods>
+          <include name="executSessionThree"/>
+        </methods>
+      </class> <!-- com.multiBrowseTesting.ParallelTesting -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

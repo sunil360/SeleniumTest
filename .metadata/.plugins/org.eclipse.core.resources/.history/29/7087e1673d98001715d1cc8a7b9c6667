@@ -1,0 +1,20 @@
+package com.selectclass;
+
+class Test12 {
+	
+	public void Testdis()
+	{
+		System.out.println("sadasdasda");
+	}
+
+}
+
+ public class TestClass
+{
+	public static void main(String[] args)
+	{
+		System.out.println("sadasdasda");
+		Test12 obj= new Test12();
+		obj.Testdis();
+	}
+}

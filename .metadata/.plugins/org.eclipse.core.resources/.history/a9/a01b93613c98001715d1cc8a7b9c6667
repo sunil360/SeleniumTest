@@ -1,0 +1,18 @@
+package com.selectclass;
+
+public class TestClass {
+	
+	public static void Testdis()
+	{
+		System.out.println("sadasdasda");
+	}
+
+}
+
+class Test12
+{
+	public static void main(String args[])
+	{
+		TestClass.Testdis();
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locator>
+	<ManageOrder>
+		<EditOrder><![CDATA[//*[@id='IC_ORDER_TAB_EDIT_BUTTON']/div[2]/div]]></EditOrder>
+		<ChangeOrderStatus><![CDATA[//*[@id='IC_ORDER_TAB_CHANGE_ORDER_STATUS_MENU_BUTTON']/div[2]/div]]></ChangeOrderStatus>
+		<OrdrStatusRow><![CDATA[//*[@id='IC_ORDER_TAB_CHANGE_ORDER_STATUS_MENU_BUTTON_COMBO_BOX_POPUP']/div/div/div]]></OrdrStatusRow>
+		<PaymentAndRefund><![CDATA[//*[@id='IC_ORDER_TAB_PAYMENT_AND_REFUND_MENU_BUTTON']/div[2]/div]]></PaymentAndRefund>
+		<PaymentRefundRow><![CDATA[//*[@id='IC_ORDER_TAB_PAYMENT_AND_REFUND_MENU_BUTTON_COMBO_BOX_POPUP']/div/div/div]]></PaymentRefundRow>
+		<DownldOrder><![CDATA[//*[@id='IC_ORDER_TAB_DOWNLOAD_ORDERS_MENU_BUTTON']/div[2]/div]]></DownldOrder>
+		<DownldOrderRow><![CDATA[//*[@id='IC_ORDER_TAB_DOWNLOAD_ORDERS_MENU_BUTTON_COMBO_BOX_POPUP']/div/div/div]]></DownldOrderRow>
+		<PrintInvoice><![CDATA[//*[@id='IC_ORDER_TAB_PRINT_INVOICE_MENU_BUTTON']/div[2]/div]]></PrintInvoice>
+		<PrintInvoiceRow><![CDATA[//*[@id='IC_ORDER_TAB_PRINT_INVOICE_MENU_BUTTON_COMBO_BOX_POPUP']/div/div/div]]></PrintInvoiceRow>
+		<OrderID><![CDATA[//*[@id='IC_ORDER_TAB_GRID']/tbody[1]/tr]]></OrderID>
+		<OrderStatusgrid><![CDATA[//*[@id='IC_ORDER_TAB_GRID']/tbody[1]/tr]]></OrderStatusgrid>
+	</ManageOrder>
+	<EditOrder>
+		<OrderStatus><![CDATA[//tbody/tr/td[2]/div/div[2]/span]]></OrderStatus>
+		<ChnageOrderStatus><![CDATA[//*[@id='IC_EDIT_ORDER_WINDOW_ORDER_STATUS_COMBO_BOX_COMBO_BOX_POPUP']/div/div/div]]></ChnageOrderStatus>
+		<EditOrderDone><![CDATA[//*[@id='IC_EDIT_ORDER_WINDOW_DONE_BUTTON']/div[2]/div]]></EditOrderDone>
+		<EditOrderCancel><![CDATA[//*[@id='IC_EDIT_ORDER_WINDOW_CANCEL_BUTTON']/div[2]/div]]></EditOrderCancel>
+		<BillingDetails><![CDATA[//div[4]//div[3]/div/div[1]]]></BillingDetails>
+		<ShippingDetails><![CDATA[//div[4]//div[3]/div/div[2]]]></ShippingDetails>
+	</EditOrder>
+</Locator>

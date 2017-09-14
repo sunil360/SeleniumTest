@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.reporting.ForTestReporter">
+      <class name="com.multiBrowseTesting.BrowserTypeTest">
         <methods>
-          <include name="testReporterTwo"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.reporting.ForTestReporter -->
+      </class> <!-- com.multiBrowseTesting.BrowserTypeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

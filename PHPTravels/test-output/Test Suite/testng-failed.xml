@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Test Suite]">
+  <test name="FirstTestCase(failed)">
+    <classes>
+      <class name="com.phptravels.TestScripts.UserLogin">
+        <methods>
+          <include name="testLogin"/>
+          <include name="afterMainMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.phptravels.TestScripts.UserLogin -->
+    </classes>
+  </test> <!-- FirstTestCase(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

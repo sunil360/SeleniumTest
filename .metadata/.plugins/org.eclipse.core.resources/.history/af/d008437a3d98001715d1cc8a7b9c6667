@@ -1,0 +1,13 @@
+package com.selectclass;
+
+import java.util.Scanner;
+
+public class TestClass
+{
+	public static void main(String[] args)
+	{
+		    System.out.println("Welcome to args");
+	        Scanner enterName = new Scanner(System.in);
+	        String name = enterName.next();
+	}
+}

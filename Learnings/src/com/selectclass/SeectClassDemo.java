@@ -23,14 +23,14 @@ public class SeectClassDemo {
 		WebElement createaccount=driver.findElement(By.xpath("//div[@id='SIGNUP']/div"));
 		createaccount.click();
 		
-//		Actions action= new Actions(driver);
-//		action.moveToElement(createacount).doubleClick().perform();
-//		Thread.sleep(5000);
+		Actions action= new Actions(driver);
+		action.moveToElement(createaccount).doubleClick().perform();
+		Thread.sleep(5000);
 		
-//	    WebElement element=driver.findElement(By.xpath("//span[@id='BirthMonth']/div[2]"));
-//		Select select= new Select(element);
-//	    select.selectByVisibleText("January");
-//		Thread.sleep(5000);
+	    WebElement element=driver.findElement(By.xpath("//span[@id='BirthMonth']/div[2]"));
+		Select select= new Select(element);
+	    select.selectByVisibleText("January");
+	    Thread.sleep(5000);
 		
 		//select.selectByValue("");
 		//driver.quit();
