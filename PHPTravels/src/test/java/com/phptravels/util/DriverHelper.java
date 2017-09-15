@@ -18,12 +18,12 @@ import org.testng.Assert;
 
 public abstract class DriverHelper {
 	
-	private WebDriver driver;
+	public WebDriver driver;
 	//private Selenium selenium;
 
-	public DriverHelper(WebDriver driver) {
+	public DriverHelper() {
 			
-		driver= new FirefoxDriver();
+		//driver= new FirefoxDriver();
 		
 		//selenium = new WebDriverBackedSelenium(driver, "");
 	
@@ -71,7 +71,7 @@ public abstract class DriverHelper {
 		else {
 			result = By.id(locator);
 		}
-
+   System.out.println(result);
 		return result;
 	}
 
@@ -82,7 +82,9 @@ public abstract class DriverHelper {
 		try {
 			getWebDriver().findElement(ByLocator(locator));
 			result = true;
-		} catch (Exception ex) {
+			System.out.println(result);
+		} 
+		catch (Exception ex) {
 
 		}
 
@@ -112,7 +114,8 @@ public abstract class DriverHelper {
 
 			try {
 				Thread.sleep(1000);
-			} catch (InterruptedException e) {
+			} 
+			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
@@ -245,10 +248,12 @@ public abstract class DriverHelper {
 	}
 	
 	public void sendKeys(String locator, String userName){		
-		this.WaitForElementPresent(locator, 30);		
-		Assert.assertTrue(isElementPresent(locator), "Element Locator :"+locator+" Not found");
+		//this.WaitForElementPresent(locator, 30);		
+		//Assert.assertTrue(isElementPresent(locator), "Element Locator :"+locator+" Not found");
 		WebElement el = getWebDriver().findElement(ByLocator(locator));
 		el.clear();
+		
+	
 		el.sendKeys(userName);
 	}
 	

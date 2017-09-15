@@ -14,8 +14,8 @@ public class AdvancedHelper extends DriverHelper {
 	
 	private LocatorReader advancedlocator;	
 	
-	public AdvancedHelper(WebDriver driver) {
-		super(driver);	
+	public AdvancedHelper() {
+		//super(driver);	
 		advancedlocator = new LocatorReader("Advanced.xml");
 	}
 	

@@ -1,0 +1,27 @@
+
+class A
+    {
+        public void display()
+        {
+           System.out.println("Display Method");
+        }
+    }
+
+    class B extends A
+    {
+        public void Show()
+        {
+            System.out.println("Show Method");
+        }
+    }
+
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            B b = new B();
+        b.display();
+        b.Show();
+            
+        }
+    }

@@ -18,8 +18,10 @@ public class LocatorReader {
 			//File file = new File(url.getFile());
 			propObj = new PropertyReader();
 			String localPath = propObj.getPath();
-			localPath = localPath+"//src//com//edesix//Locator//";			
+			localPath = localPath+"//src//test//java//com//phptravels//locator//";		
+			System.out.println(localPath);
 			doc = reader.read(localPath+xmlName);
+			System.out.println(doc);
 		} catch (DocumentException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

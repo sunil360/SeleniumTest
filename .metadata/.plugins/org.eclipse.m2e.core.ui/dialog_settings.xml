@@ -4,13 +4,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="PHPTravels"/>
 			<item value="com.company"/>
 		</list>
 		<list key="name">
+			<item value="PHPTravels"/>
 			<item value="Flipkart"/>
 			<item value="My Project"/>
 		</list>
 		<list key="artifactId">
+			<item value="PHPTravels"/>
 			<item value="Flipkart"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -39,7 +42,7 @@
 		<item value="480" key="width"/>
 		<item value="761" key="x"/>
 		<item value="140" key="y"/>
-		<item value="529" key="height"/>
+		<item value="531" key="height"/>
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">

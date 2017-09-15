@@ -50,8 +50,9 @@ public abstract class DriverTestCase {
 			driver = new ChromeDriver();
 			
 		} else {
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\sunilk\\workspace\\PHPTravels\\src\\test\\resources\\webdriver\\geckodriver.exe");
-			driver = new FirefoxDriver();			
+			
+			System.out.println("Please enter the correct browser name");
+					
 		}			
 		//selenium = new WebDriverBackedSelenium(driver, "");
 		
@@ -109,7 +110,7 @@ public abstract class DriverTestCase {
 	
 	public void loginAdminConsole(){
 		  PropertyReader propertyReader = new PropertyReader();
-		  AdvancedHelper userCreationHelper = new AdvancedHelper(getWebDriver());
+		  AdvancedHelper userCreationHelper = new AdvancedHelper();
 		  String username =  propertyReader.readApplicationFile("AdminName"); 
 		  String password =  propertyReader.readApplicationFile("AdminPassword"); 
 		  //userCreationHelper.enterUserName(username);
@@ -118,7 +119,7 @@ public abstract class DriverTestCase {
 	}
 	
 	public void login(){		
-		LoginHelper loginHelper = new LoginHelper(getWebDriver());
+		LoginHelper loginHelper = new LoginHelper();
 		PropertyReader propertyReader = new PropertyReader();
 		String username =  propertyReader.readApplicationFile("UserName");	
 		String password =  propertyReader.readApplicationFile("Password");	

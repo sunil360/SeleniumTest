@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="8006" started-at="2017-09-14T11:39:48Z" finished-at="2017-09-14T11:39:56Z">
+  <suite name="Default suite" duration-ms="538620" started-at="2017-09-15T11:16:47Z" finished-at="2017-09-15T11:25:46Z">
     <groups>
     </groups>
-    <test name="FirstTestCase" duration-ms="8006" started-at="2017-09-14T11:39:48Z" finished-at="2017-09-14T11:39:56Z">
+    <test name="Default test" duration-ms="538620" started-at="2017-09-15T11:16:47Z" finished-at="2017-09-15T11:25:46Z">
       <class name="com.phptravels.TestScripts.UserLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@146ba0ac]" name="setUp" is-config="true" duration-ms="10102" started-at="2017-09-14T17:09:38Z" finished-at="2017-09-14T17:09:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@3ce1e309]" name="setUp" is-config="true" duration-ms="38896" started-at="2017-09-15T16:46:08Z" finished-at="2017-09-15T16:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@146ba0ac]" name="testLogin" duration-ms="7999" started-at="2017-09-14T17:09:48Z" finished-at="2017-09-14T17:09:56Z">
+        <test-method status="FAIL" signature="testLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@3ce1e309]" name="testLogin" duration-ms="538605" started-at="2017-09-15T16:46:47Z" finished-at="2017-09-15T16:55:46Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.phptravels.locator.LocatorReader.getLocator(LocatorReader.java:30)
-	at com.phptravels.pagehelper.LoginHelper.enterUserName(LoginHelper.java:32)
+	at com.phptravels.util.DriverHelper.sendKeys(DriverHelper.java:253)
+	at com.phptravels.pagehelper.LoginHelper.enterUserName(LoginHelper.java:34)
 	at com.phptravels.TestScripts.UserLogin.testLogin(UserLogin.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.phptravels.TestScripts.UserLogin@146ba0ac]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2017-09-14T17:09:56Z" finished-at="2017-09-14T17:09:56Z">
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.phptravels.TestScripts.UserLogin@3ce1e309]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2017-09-15T16:55:46Z" finished-at="2017-09-15T16:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMainMethod -->
       </class> <!-- com.phptravels.TestScripts.UserLogin -->
-    </test> <!-- FirstTestCase -->
-  </suite> <!-- Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
