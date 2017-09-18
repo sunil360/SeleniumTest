@@ -1,5 +1,6 @@
 package com.phptravels.util;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -8,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -21,9 +23,9 @@ public abstract class DriverHelper {
 	public WebDriver driver;
 	//private Selenium selenium;
 
-	public DriverHelper() {
+	public DriverHelper(WebDriver webdriver) {
 			
-		//driver= new FirefoxDriver();
+		driver = webdriver;
 		
 		//selenium = new WebDriverBackedSelenium(driver, "");
 	
@@ -248,13 +250,13 @@ public abstract class DriverHelper {
 	}
 	
 	public void sendKeys(String locator, String userName){		
-		//this.WaitForElementPresent(locator, 30);		
-		//Assert.assertTrue(isElementPresent(locator), "Element Locator :"+locator+" Not found");
-		WebElement el = getWebDriver().findElement(ByLocator(locator));
-		el.clear();
 		
-	
+		//this.WaitForElementPresent(locator, 30);		
+		//Assert.assertTrue(isElementPresent(locator), "Element Locator :"+locator+" Not found");			
+		WebElement el = getWebDriver().findElement(ByLocator(locator));
+		el.clear();		
 		el.sendKeys(userName);
+	
 	}
 	
 	

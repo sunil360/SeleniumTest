@@ -14,8 +14,8 @@ public class HeaderHelper extends DriverHelper {
 	
 	private LocatorReader headerLocator;	
 	
-	public HeaderHelper() {
-		//super(driver);	
+	public HeaderHelper(WebDriver driver) {
+		super(driver);	
 		headerLocator = new LocatorReader("Header.xml");
 	}
 	

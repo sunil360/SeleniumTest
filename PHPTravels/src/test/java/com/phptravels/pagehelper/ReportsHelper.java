@@ -10,8 +10,8 @@ public class ReportsHelper extends DriverHelper {
 	
 	private LocatorReader manageRegionLocator;	
 	
-	public ReportsHelper() {
-		//super(driver);	
+	public ReportsHelper(WebDriver driver) {
+		super(driver);	
 		manageRegionLocator = new LocatorReader("ManageRegion.xml");
 	}
 	public void clickManageRegion()

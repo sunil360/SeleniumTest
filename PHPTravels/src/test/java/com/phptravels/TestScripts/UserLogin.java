@@ -18,7 +18,7 @@ public class UserLogin extends DriverTestCase{
 		
 		//object initialization		
 		PropertyReader propertyReader = new PropertyReader();		
-		LoginHelper loginHelper = new LoginHelper();
+		LoginHelper loginHelper = new LoginHelper(getWebDriver());
 		//HeaderHelper headerHelper = new HeaderHelper();
 				
 		//Log into the application with valid credential

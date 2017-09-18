@@ -12,9 +12,9 @@ import com.phptravels.util.DriverHelper;
 public class LoginHelper extends DriverHelper {
 	
 	private LocatorReader loginLocator;	
-	
-	public LoginHelper() {
-		//super(driver);	
+	public WebDriver driver;
+	public LoginHelper(WebDriver driver) {
+		super(driver);	
 		loginLocator = new LocatorReader("Login.xml");
 	}
 	

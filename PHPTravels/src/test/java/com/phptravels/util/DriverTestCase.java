@@ -76,9 +76,9 @@ public abstract class DriverTestCase {
 	public String productname = "POWA"+randomString(4)+"-"+getRandomInteger(100, 999, aRandom);
 	
 	
-	@AfterSuite
+	//@AfterSuite
 	public void afterMainMethod() {		
-		//driver.quit();
+		driver.quit();
 	}
 	
 	public WebDriver getWebDriver(){
@@ -110,7 +110,7 @@ public abstract class DriverTestCase {
 	
 	public void loginAdminConsole(){
 		  PropertyReader propertyReader = new PropertyReader();
-		  AdvancedHelper userCreationHelper = new AdvancedHelper();
+		  AdvancedHelper userCreationHelper = new AdvancedHelper(getWebDriver());
 		  String username =  propertyReader.readApplicationFile("AdminName"); 
 		  String password =  propertyReader.readApplicationFile("AdminPassword"); 
 		  //userCreationHelper.enterUserName(username);
@@ -119,7 +119,7 @@ public abstract class DriverTestCase {
 	}
 	
 	public void login(){		
-		LoginHelper loginHelper = new LoginHelper();
+		LoginHelper loginHelper = new LoginHelper(getWebDriver());
 		PropertyReader propertyReader = new PropertyReader();
 		String username =  propertyReader.readApplicationFile("UserName");	
 		String password =  propertyReader.readApplicationFile("Password");	

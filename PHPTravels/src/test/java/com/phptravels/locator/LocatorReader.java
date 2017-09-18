@@ -18,7 +18,7 @@ public class LocatorReader {
 			//File file = new File(url.getFile());
 			propObj = new PropertyReader();
 			String localPath = propObj.getPath();
-			localPath = localPath+"//src//test//java//com//phptravels//locator//";		
+			localPath = localPath+"/src/test/java/com/phptravels/locator/";		
 			System.out.println(localPath);
 			doc = reader.read(localPath+xmlName);
 			System.out.println(doc);
