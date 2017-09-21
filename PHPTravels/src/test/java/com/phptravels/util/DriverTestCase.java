@@ -34,7 +34,7 @@ public abstract class DriverTestCase {
 		
 		String driverType = propertyReader.readApplicationFile("BROWSER");		
 		
-		System.out.println(driverType);
+		//System.out.println(driverType);
 							
 		if (DriverType.Firefox.toString().equals(driverType)) {		
 			 System.setProperty("webdriver.gecko.driver","C:\\Users\\sunilk\\workspace\\PHPTravels\\src\\test\\resources\\webdriver\\geckodriver.exe");
@@ -104,8 +104,8 @@ public abstract class DriverTestCase {
 		String applicationUrl = propertyReader.readApplicationFile("WebURL");
 		System.out.println("my application URL is: " +applicationUrl);
 		//getWebDriver().get(applicationUrl+"/en/ControlPanel.html");
-		getWebDriver().get(applicationUrl + "/login");
-		//getWebDriver().get(applicationUrl);
+		//getWebDriver().get(applicationUrl + "/login");
+		getWebDriver().get(applicationUrl);
 	}
 	
 	public void loginAdminConsole(){

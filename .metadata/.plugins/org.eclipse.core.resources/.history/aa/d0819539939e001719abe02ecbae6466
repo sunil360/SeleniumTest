@@ -1,0 +1,5 @@
+package javaannotation;
+
+public class SupressAnnotation {
+
+}

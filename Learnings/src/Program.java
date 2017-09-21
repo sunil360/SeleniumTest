@@ -3,7 +3,7 @@ class A
     {
         public void display()
         {
-           System.out.println("Display Method");
+           System.out.println("A");
         }
     }
 
@@ -11,16 +11,17 @@ class A
     {
         public void display()
         {
-            System.out.println("Show Method");
+            System.out.println("B");
         }
     }
 
     class Program
     {
-        static void Main(String[] args)
+        public static void main(String[] args)
         {
             A a = new B();
-             
+            a.display();
+         
         
             
         }

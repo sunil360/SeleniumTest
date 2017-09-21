@@ -6,7 +6,6 @@
       <class name="com.phptravels.TestScripts.UserLogin">
         <methods>
           <include name="testLogin"/>
-          <include name="afterMainMethod"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.phptravels.TestScripts.UserLogin -->

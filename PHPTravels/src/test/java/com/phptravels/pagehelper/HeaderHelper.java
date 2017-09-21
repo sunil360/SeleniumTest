@@ -74,5 +74,17 @@ public class HeaderHelper extends DriverHelper {
 		clickOn(locator);
 		
 	}
+	
+	    public void verifyLogoutValidation(){
+		String locator = headerLocator.getLocator("Header.ValidationMsg");
+		String text = getText(locator);
+		Assert.assertTrue(text.contains("You have been successfully logged out."));
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	    
+   }
 }

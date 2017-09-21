@@ -1,0 +1,33 @@
+package com.phptravels.util;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class XMLReader {
+	
+	public XMLReader()
+	{
+		
+	}
+	
+	public void getXML(boolean status) throws InvalidFormatException, IOException
+	{
+		
+		File file= new File("C:\\Users\\sunilk\\workspace\\PHPTravels\\src\\test\\resources\\testdata\\PHPTravelsTestcases.xlsx");
+		
+		XSSFWorkbook wb= new XSSFWorkbook(file);
+		XSSFSheet sheet=wb.getSheet("Sheet1");		
+		XSSFRow row= sheet.getRow(1);
+		String str =row.getCell(1).getStringCellValue();
+		
+		System.out.println(str);
+		
+	}
+
+}
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+<Header>
+		<LogoutDropDown><![CDATA[//ul[@class='nav navbar-nav navbar-right']/li/a]]></LogoutDropDown>
+		<Logout><![CDATA[//li[@id='Secondary_Navbar-Account-Logout']/a]]></Logout>
+		<ValidationMsg><![CDATA[//div[@class='alert alert-success text-center']]]></ValidationMsg>
+				
+	</Header> 
+
+</Locators>

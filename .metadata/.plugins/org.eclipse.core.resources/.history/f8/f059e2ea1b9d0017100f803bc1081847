@@ -1,0 +1,22 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class IFrameDemo {
+	
+	public static void main(String args[])
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+    	WebDriver driver=new ChromeDriver();
+    	driver.manage().window().maximize();
+    	driver.get("http://toolsqa.com/iframe-practice-page/");
+    	
+    	List<WebElement> iFrmaeElement= (List<WebElement>) driver.findElement(By.tagName("iframe"));
+    	System.out.println("The total number of iframes are " + iFrmaeElement.size());
+		
+	}
+
+}

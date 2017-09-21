@@ -1,0 +1,28 @@
+package com.phptravels.util;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class XMLReader {
+ 
+	    public static void main (String [] args) throws IOException{
+		String path= "C:\\Users\\sunilk\\workspace\\PHPTravels\\src\\test\\resources\\testdata\\PHPTravelsTestcases.xlsx";
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheetAt(0);
+		Row row = sheet.getRow(1);
+		
+		Cell cell1= row.createCell(6);
+		cell1.setCellValue("Passed");
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+		System.out.println("END OF WRITING DATA IN EXCEL");
+	}
+}

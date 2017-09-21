@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+<Header>
+		<LogoutDropDown><![CDATA[//div[@id='bs-example-navbar-collapse-1']/ul[2]/li/a]]></LogoutDropDown>
+		<Logout><![CDATA[//ul[@class='nav navbar-nav navbar-right']/li/ul/li[6]]]></Logout>
+		<!-- <LoggedInUser><![CDATA[//*[@id='mainNavRegion']/div/ul[2]/li/a]]></LoggedInUser>
+		<VideoTab><![CDATA[//a[contains(text(),'Videos')]]]]></VideoTab>
+		<Logout><![CDATA[//a[@class='account-logout']]]></Logout>
+		<Video><![CDATA[//a[contains(text(),'Videos')]]]></Video>
+		 -->
+		<Logout><![CDATA[//a[@class='account-logout']]]></Logout>
+		<Home><![CDATA[link=Home]]></Home>
+		<Video><![CDATA[link=Videos]]></Video>
+		<Incident><![CDATA[link=Incidents]]></Incident>
+		<Export><![CDATA[link=Exports]]></Export>
+		<Report><![CDATA[link=Reports]]></Report>
+		<Advanced><![CDATA[link=Advanced]]></Advanced>
+		<LogoutDropDown><![CDATA[link=Advanced]]></LogoutDropDown>
+		
+		
+	</Header> 
+
+</Locators>

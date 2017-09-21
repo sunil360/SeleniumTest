@@ -1,0 +1,33 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class WindowandTabDemo {
+	
+	public static void main(String args[]) throws InterruptedException
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+    	WebDriver driver=new ChromeDriver();
+    	driver.manage().window().maximize();
+    	driver.get("http://www.gmail.com/");
+    	
+    	//WebDriver driver= new FirefoxDriver();    
+    	WebElement moreopt= driver.findElement(By.xpath("html/body/div[1]/div[1]/div[2]/div[2]/form/div[2]/div/div[2]/div[2]/div"));
+    	System.out.println(moreopt);
+    	Actions oAction= new Actions(driver);
+    	oAction.moveToElement(moreopt);
+    	oAction.contextClick(moreopt).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+    	
+        /*WebElement oWe= driver.findElement(By.linkText("Create an account"));
+        
+        oAction.moveToElement(oWe);
+        oAction.contextClick(oWe).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+        Thread.sleep(10000);
+        driver.findElement(By.id("FirstName")).sendKeys("gaurav");
+        driver.findElement(By.id("LastName")).sendKeys("Saini");*/
+	}
+
+}

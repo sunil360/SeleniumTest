@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" verbose="10">
+
+	<test name="Login Test cases">
+		<classes>
+			<class name="com.phptravels.TestScripts.UserLogin" />
+			<methods>
+			<method name="com.phptravels.TestScripts.UserLogin.validLogin" />
+			
+			
+			
+			</methods>
+		</classes>
+	</test>
+
+</suite>

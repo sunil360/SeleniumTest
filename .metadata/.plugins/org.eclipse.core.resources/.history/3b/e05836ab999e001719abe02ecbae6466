@@ -1,0 +1,34 @@
+
+public class Testdemo {
+	
+	
+
+	public static void main(String[] args) {
+		
+		displaytest2 obj= new displaytest2();
+		
+		obj.display();
+
+	}
+
+}
+
+class displaytest
+{
+	int x=5;
+	public void display()
+	{
+		System.out.println("displaytest");
+	}
+}
+
+
+class displaytest2 extends displaytest
+{
+	public void display()
+	{
+		System.out.println("displaytest2");
+	}
+	
+	
+}

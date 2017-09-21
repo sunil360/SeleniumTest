@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Locators>
    <Login>
-      <UserName><![CDATA[//input[@name='username']]]></UserName>
-      <Password><![CDATA[//input[@name='password']]]></Password>
-      <SignIn><![CDATA[//button[@type='submit']]]></SignIn>
-   </Login>
-	 
+      <UserName><![CDATA[//input[@id='inputEmail']]]></UserName>
+      <Password><![CDATA[//input[@id='inputPassword']]]></Password>
+      <SignIn><![CDATA[//input[@id='login']]]></SignIn>
+      <ValidationMsg><![CDATA[//div[@class='alert alert-danger text-center']]]></ValidationMsg>
+   </Login>	 
 </Locators>

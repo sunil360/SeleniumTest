@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Driver Object Created!]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="424" started-at="2017-09-18T06:18:44Z" finished-at="2017-09-18T06:18:45Z">
+  <suite name="Simple Reporter Suite" duration-ms="7811" started-at="2017-09-20T12:00:23Z" finished-at="2017-09-20T12:00:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="424" started-at="2017-09-18T06:18:44Z" finished-at="2017-09-18T06:18:45Z">
+    <test name="Login Test cases" duration-ms="7811" started-at="2017-09-20T12:00:23Z" finished-at="2017-09-20T12:00:31Z">
       <class name="com.phptravels.TestScripts.UserLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@4dfa3a9d]" name="setUp" is-config="true" duration-ms="48262" started-at="2017-09-18T11:47:56Z" finished-at="2017-09-18T11:48:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@31ef45e3]" name="setUp" is-config="true" duration-ms="8230" started-at="2017-09-20T17:30:15Z" finished-at="2017-09-20T17:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@4dfa3a9d]" name="testLogin" duration-ms="416" started-at="2017-09-18T11:48:44Z" finished-at="2017-09-18T11:48:45Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@31ef45e3]" name="validLogin" duration-ms="7797" started-at="2017-09-20T17:30:23Z" finished-at="2017-09-20T17:30:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[Driver Object Created!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testLogin -->
+        </test-method> <!-- validLogin -->
       </class> <!-- com.phptravels.TestScripts.UserLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Test cases -->
+  </suite> <!-- Simple Reporter Suite -->
 </testng-results>

@@ -1,0 +1,10 @@
+
+public class Inherited implements Interface1, Interface2
+{
+	public void show()
+	{
+		System.out.println("Interface1");
+	}
+	
+
+}

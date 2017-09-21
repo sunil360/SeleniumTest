@@ -1,0 +1,90 @@
+package com.phptravels.pagehelper;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import com.phptravels.locator.LocatorReader;
+import com.phptravels.util.DriverHelper;
+
+import java.lang.Thread;
+
+
+public class HeaderHelper extends DriverHelper {
+	
+	private LocatorReader headerLocator;	
+	
+	public HeaderHelper(WebDriver driver) {
+		super(driver);	
+		headerLocator = new LocatorReader("Header.xml");
+	}
+	
+	public void clickLogOut()
+	{
+    	
+		String locator = headerLocator.getLocator("Header.Logout");
+		clickOn(locator);		
+	}
+	
+	
+	public void clickLogOutDropDownIcon()
+	{
+		String logoutDropDown=headerLocator.getLocator("Header.LogoutDropDown");
+		clickOn(logoutDropDown);
+	}
+	
+	public void clickOnVideo()
+	{
+		String locator=headerLocator.getLocator("Header.Video");
+		clickOn(locator);
+		
+	}
+	
+	
+	public String getLoggedInUser()
+	{
+		//String logoutDropDown  = headerLocator.getLocator("Header.LogoutDropDown");
+		//WaitForElementPresent(logoutDropDown, 10);
+		String locator  = headerLocator.getLocator("Header.LoggedInUser");
+		System.out.println("my locator is :" + locator);
+		String loggedInUserName= getText(locator);
+		return loggedInUserName;
+	}
+	
+	
+	public boolean isLogoutDropDownDisplayed()
+	{
+		String locator=headerLocator.getLocator("Header.LogoutDropDown");
+		boolean result= isElementDisplayed(locator);
+		return result;
+		
+	}
+	
+	public void clickOnAdvancedTab()
+	{
+		String locator=headerLocator.getLocator("Header.Advanced");
+		clickOn(locator);
+		
+	}
+	
+	
+	public void clickOnHomeTab()
+	{
+		String locator=headerLocator.getLocator("Header.Home");
+		clickOn(locator);
+		
+	}
+	
+	    public void verifyLoginValidation(){
+		String locator = headerLocator.getLocator("Login.LogoutMsg");
+		String text = getText(locator);
+		Assert.assertTrue(text.contains("You have been successfully logged out."));
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    
+   }
+}
