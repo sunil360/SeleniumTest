@@ -1,0 +1,19 @@
+package com.automation.practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DynamicDropdownValueSelection {
+	public void dynamicValueSelection()
+	{
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+ 	WebDriver driver=new ChromeDriver();	
+ 	
+ 	//JavascriptExecutor jsdriver= (JavascriptExecutor) driver; 
+ 		
+    //Launching the site.	
+    driver.manage().window().maximize();
+    driver.get("https://bankifsccode.com");
+    	
+	}
+}

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,21 @@
                       <a href="#" panel-name="suite-Simple_Reporter_Suite" class="show-methods passed suite-Simple_Reporter_Suite"> (show)</a> <!-- show-methods passed suite-Simple_Reporter_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Simple_Reporter_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Simple_Reporter_Suite" title="com.phptravels.TestScripts.UserLogin" hash-for-method="loginWithInvalidPassword">loginWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Simple_Reporter_Suite" title="com.phptravels.TestScripts.UserLogin" hash-for-method="loginWithInvalidUserName">loginWithInvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Simple_Reporter_Suite" title="com.phptravels.TestScripts.UserLogin" hash-for-method="loginWithblankFileds">loginWithblankFileds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Simple_Reporter_Suite" title="com.phptravels.TestScripts.UserLogin" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
@@ -124,6 +139,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="loginWithInvalidPassword">
+                  </a> <!-- loginWithInvalidPassword -->
+                  <span class="method-name">loginWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidUserName">
+                  </a> <!-- loginWithInvalidUserName -->
+                  <span class="method-name">loginWithInvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithblankFileds">
+                  </a> <!-- loginWithblankFileds -->
+                  <span class="method-name">loginWithblankFileds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validLogin">
                   </a> <!-- validLogin -->
                   <span class="method-name">validLogin</span>
@@ -146,14 +182,7 @@
   &lt;/listeners&gt;
   &lt;test name=&quot;Login Test cases&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.phptravels.TestScripts.UserLogin&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;validLogin&quot;/&gt;
-          &lt;exclude name=&quot;loginWithblankFileds&quot;/&gt;
-          &lt;exclude name=&quot;loginWithInvalidUserName&quot;/&gt;
-          &lt;exclude name=&quot;loginWithInvalidPassword&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.phptravels.TestScripts.UserLogin --&gt;
+      &lt;class name=&quot;com.phptravels.TestScripts.UserLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Test cases --&gt;
 &lt;/suite&gt; &lt;!-- Simple Reporter Suite --&gt;
@@ -193,16 +222,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLogin')
 data.setCell(0, 2, 'com.phptravels.TestScripts.UserLogin')
-data.setCell(0, 3, 7797);
+data.setCell(0, 3, 7664);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWithInvalidPassword')
+data.setCell(1, 2, 'com.phptravels.TestScripts.UserLogin')
+data.setCell(1, 3, 6938);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithInvalidUserName')
+data.setCell(2, 2, 'com.phptravels.TestScripts.UserLogin')
+data.setCell(2, 3, 6659);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithblankFileds')
+data.setCell(3, 2, 'com.phptravels.TestScripts.UserLogin')
+data.setCell(3, 3, 6508);
 window.suiteTableData['Simple_Reporter_Suite']= { tableData: data, tableDiv: 'times-div-Simple_Reporter_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Simple_Reporter_Suite">
               </div> <!-- times-div-Simple_Reporter_Suite -->
             </div> <!-- times-div -->
@@ -219,24 +260,19 @@ return data;
                 <span class="reporter-method-output">Driver Object Created!</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithblankFileds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">URL is Launched!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Simple_Reporter_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.phptravels.TestScripts.UserLogin</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginWithInvalidUserName</span>
-                <br/>
-                <span class="ignored-method-name">loginWithblankFileds</span>
-                <br/>
-                <span class="ignored-method-name">loginWithInvalidPassword</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Simple_Reporter_Suite" class="panel">
@@ -251,8 +287,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <span class="method-name">loginWithInvalidPassword</span>
+                <span class="method-start">7816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidUserName</span>
+                <span class="method-start">14756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithblankFileds</span>
+                <span class="method-start">21416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">validLogin</span>
-                <span class="method-start">8241 ms</span>
+                <span class="method-start">27925 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

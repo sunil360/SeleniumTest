@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[URL is Launched!]]>
+    </line>
     <line>
       <![CDATA[Driver Object Created!]]>
     </line>
   </reporter-output>
-  <suite name="Simple Reporter Suite" duration-ms="7811" started-at="2017-09-20T12:00:23Z" finished-at="2017-09-20T12:00:31Z">
+  <suite name="Simple Reporter Suite" duration-ms="27787" started-at="2017-09-22T05:47:46Z" finished-at="2017-09-22T05:48:14Z">
     <groups>
     </groups>
-    <test name="Login Test cases" duration-ms="7811" started-at="2017-09-20T12:00:23Z" finished-at="2017-09-20T12:00:31Z">
+    <test name="Login Test cases" duration-ms="27787" started-at="2017-09-22T05:47:46Z" finished-at="2017-09-22T05:48:14Z">
       <class name="com.phptravels.TestScripts.UserLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@31ef45e3]" name="setUp" is-config="true" duration-ms="8230" started-at="2017-09-20T17:30:15Z" finished-at="2017-09-20T17:30:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phptravels.TestScripts.UserLogin@13deb50e]" name="setUp" is-config="true" duration-ms="7804" started-at="2017-09-22T11:17:38Z" finished-at="2017-09-22T11:17:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@31ef45e3]" name="validLogin" duration-ms="7797" started-at="2017-09-20T17:30:23Z" finished-at="2017-09-20T17:30:31Z">
+        <test-method status="PASS" signature="loginWithInvalidPassword()[pri:0, instance:com.phptravels.TestScripts.UserLogin@13deb50e]" name="loginWithInvalidPassword" duration-ms="6938" started-at="2017-09-22T11:17:46Z" finished-at="2017-09-22T11:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method status="PASS" signature="loginWithInvalidUserName()[pri:0, instance:com.phptravels.TestScripts.UserLogin@13deb50e]" name="loginWithInvalidUserName" duration-ms="6659" started-at="2017-09-22T11:17:53Z" finished-at="2017-09-22T11:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserName -->
+        <test-method status="PASS" signature="loginWithblankFileds()[pri:0, instance:com.phptravels.TestScripts.UserLogin@13deb50e]" name="loginWithblankFileds" duration-ms="6508" started-at="2017-09-22T11:18:00Z" finished-at="2017-09-22T11:18:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is Launched!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithblankFileds -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.phptravels.TestScripts.UserLogin@13deb50e]" name="validLogin" duration-ms="7664" started-at="2017-09-22T11:18:06Z" finished-at="2017-09-22T11:18:14Z">
           <reporter-output>
             <line>
               <![CDATA[Driver Object Created!]]>

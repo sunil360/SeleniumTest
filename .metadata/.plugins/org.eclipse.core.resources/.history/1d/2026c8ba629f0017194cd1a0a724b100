@@ -1,0 +1,53 @@
+package com.automation.practice;
+
+import org.apache.commons.codec.binary.Base64;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+ class Pwdverify {
+	
+	public void fbPassword() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+     	WebDriver driver=new ChromeDriver();	
+     	
+     	//JavascriptExecutor jsdriver= (JavascriptExecutor) driver; 
+     		
+        //Launching the site.	
+        driver.manage().window().maximize();
+        driver.get("https://phptravels.org/clientarea.php");	
+        
+        driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[1]/input")).sendKeys("testauto1709@gmail.com");
+        driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[2]/input")).sendKeys("360logica");
+        
+        WebElement pwd= driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[2]/input"));
+        
+         JavascriptExecutor js= (JavascriptExecutor) driver;
+        // driver.ExecuteScript(String.Format("document.getElementById('cred-password-inputtext').value='{0}';",password));
+        
+        byte[] encodedBytes = Base64.encodeBase64("Password".getBytes());
+        System.out.println("encodedBytes "+ new String(encodedBytes));
+
+        byte[] decodedBytes = Base64.decodeBase64(encodedBytes);
+        System.out.println("decodedBytes "+ new String(decodedBytes));
+
+        pwd.sendKeys(new String(encodedBytes));
+        
+		}
+}
+	
+ 
+ 
+ public class PasswordVerification
+	{
+		public static void main(String args[])
+		{
+			Pwdverify pobj= new Pwdverify();
+			pobj.fbPassword();
+			//System.out.println(pwd);
+		}
+
+	}

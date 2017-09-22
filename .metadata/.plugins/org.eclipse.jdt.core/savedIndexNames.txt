@@ -26,7 +26,6 @@ INDEX VERSION 1.130+C:\Users\sunilk\workspace\.metadata\.plugins\org.eclipse.jdt
 3553781599.index
 1733860041.index
 4136165878.index
-1257369998.index
 4067536100.index
 1417411144.index
 3312876676.index

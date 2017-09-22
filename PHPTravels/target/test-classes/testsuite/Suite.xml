@@ -8,12 +8,12 @@
 	<test name="Login Test cases">
 		<classes>
 			<class name="com.phptravels.TestScripts.UserLogin" />
-			<methods>
+			 <!-- <methods>
 			      <include name="validLogin" />
 			      <exclude name="loginWithblankFileds" />
 			      <exclude name="loginWithInvalidUserName" />
 			      <exclude name="loginWithInvalidPassword" />
-            </methods>
+            </methods> -->
 		</classes>
 	</test>
 

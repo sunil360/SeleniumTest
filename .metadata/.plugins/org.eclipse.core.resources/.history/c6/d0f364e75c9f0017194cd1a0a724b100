@@ -1,0 +1,25 @@
+package com.automation.practice;
+
+import java.util.Base64;
+
+class Pwdverify {
+	
+	public String fbPassword() {
+		String decryptedPassword, encryptedPassword;
+		encryptedPassword="VGVzdDAxKga=";
+		byte[] decryptedPasswordBytes = Base64.getDecoder().decode(encryptedPassword);
+		decryptedPassword = new String(decryptedPasswordBytes);
+		return decryptedPassword;
+		}
+	
+	public class PasswordVerification
+	{
+		public static void main(String args[])
+		{
+			Pwdverify pobj= new Pwdverify();
+			String pwd=pobj.fbPassword();
+			System.out.println(pwd);
+		}
+
+	}
+}

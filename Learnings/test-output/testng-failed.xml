@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.multiBrowseTesting.BrowserTypeTest">
+      <class name="com.automation.practice.DynamicDropdownValueSelection">
         <methods>
-          <include name="setUp"/>
+          <include name="dynamicValueSelection"/>
         </methods>
-      </class> <!-- com.multiBrowseTesting.BrowserTypeTest -->
+      </class> <!-- com.automation.practice.DynamicDropdownValueSelection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

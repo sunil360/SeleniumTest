@@ -1,0 +1,57 @@
+package com.automation.practice;
+
+import org.apache.commons.codec.binary.Base64;
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+ public class PasswordVerification {
+	 
+	 @Test	
+	 public void fbPassword() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+     	WebDriver driver=new ChromeDriver();	
+     	
+     	//JavascriptExecutor jsdriver= (JavascriptExecutor) driver; 
+     		
+        //Launching the site.	
+        driver.manage().window().maximize();
+        driver.get("https://phptravels.org/clientarea.php");	
+        
+        driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[1]/input")).sendKeys("testauto1709@gmail.com");
+        driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[2]/input")).sendKeys("360logica");
+        
+        String usertext= driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[1]/input")).getAttribute("value");
+        
+        System.out.println("By Attribte value  " +usertext);
+        
+        String usertext1= driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[1]/input")).getText();
+        
+        System.out.println("By Attribute Text  " +usertext1);
+        
+        String pwdtext= driver.findElement(By.xpath("html/body/section[3]/div[1]/div/div/form/div[2]/input")).getAttribute("value");
+        
+            
+               
+        byte[] encodedpwd = Base64.encodeBase64(pwdtext.getBytes());
+        System.out.println("encodedBytes "+ new String(encodedpwd));
+
+        byte[] decodedBytes = Base64.decodeBase64(encodedpwd);
+        System.out.println("decodedBytes "+ new String(decodedBytes));
+        String pwdstr= new String(decodedBytes);
+        
+        Assert.assertEquals(pwdstr, "360logica", "Password is not correct");
+
+        //pwd.sendKeys(new String(encodedBytes));
+        
+		}
+}
+	
+ 
+ 
+ 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39566" started-at="2017-09-14T10:38:49Z" finished-at="2017-09-14T10:39:29Z">
+  <suite name="Default suite" duration-ms="43181" started-at="2017-09-22T11:47:23Z" finished-at="2017-09-22T11:48:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39566" started-at="2017-09-14T10:38:49Z" finished-at="2017-09-14T10:39:29Z">
-      <class name="com.multiBrowseTesting.BrowserTypeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.multiBrowseTesting.BrowserTypeTest@56de5251]" name="setUp" duration-ms="39555" started-at="2017-09-14T16:08:49Z" finished-at="2017-09-14T16:09:29Z">
+    <test name="Default test" duration-ms="43181" started-at="2017-09-22T11:47:23Z" finished-at="2017-09-22T11:48:06Z">
+      <class name="com.automation.practice.DynamicDropdownValueSelection">
+        <test-method status="PASS" signature="dynamicValueSelection()[pri:0, instance:com.automation.practice.DynamicDropdownValueSelection@5cc7c2a6]" name="dynamicValueSelection" duration-ms="43171" started-at="2017-09-22T17:17:23Z" finished-at="2017-09-22T17:18:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- com.multiBrowseTesting.BrowserTypeTest -->
+        </test-method> <!-- dynamicValueSelection -->
+      </class> <!-- com.automation.practice.DynamicDropdownValueSelection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

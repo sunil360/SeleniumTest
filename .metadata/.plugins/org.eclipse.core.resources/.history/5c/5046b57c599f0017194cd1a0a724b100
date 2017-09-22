@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Simple Reporter Suite">
+
+<listeners>
+    <listener class-name="com.phptravels.util.CustomReporter" />
+  </listeners>
+
+	<test name="Login Test cases">
+		<classes>
+			<class name="com.phptravels.TestScripts.UserLogin" />
+			<methods>
+			      <include name="validLogin" />
+			      <exclude name="loginWithblankFileds" />
+			      <exclude name="loginWithInvalidUserName" />
+			      <exclude name="loginWithInvalidPassword" />
+            </methods>
+		</classes>
+	</test>
+
+</suite>

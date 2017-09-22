@@ -2,6 +2,7 @@ package com.automation.practice;
 
 import java.awt.AWTException;
 import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.ListIterator;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,12 +20,32 @@ import org.openqa.selenium.support.ui.Select;
 
 public class AutomationPracticeForm {
 	public static void main(String[] args) throws InterruptedException, AWTException {		
-    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
-        	WebDriver driver=new ChromeDriver();			
+    	   System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunilk\\workspace\\Learnings\\Drivers\\chromedriver.exe");
+        	WebDriver driver=new ChromeDriver();	
+        	
+        	JavascriptExecutor jsdriver= (JavascriptExecutor) driver; 
         		
         //Launching the site.	
         driver.manage().window().maximize();
-        driver.get("http://toolsqa.com/automation-practice-form/");		
+        driver.get("http://toolsqa.com/automation-practice-form/");	
+        
+        /*Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_PAGE_DOWN);
+        Thread.sleep(5000);
+        robot.keyRelease(KeyEvent.VK_PAGE_DOWN);*/
+        
+        
+          WebElement element = driver.findElement(By.cssSelector(".textwidget>form>input"));
+          System.out.println(element);
+		  jsdriver.executeScript("arguments[0].scrollIntoView();", element);
+		  Thread.sleep(5000);
+        
+       /* jsdriver.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        Thread.sleep(5000);
+        jsdriver.executeScript("window.scrollTo(document.body.scrollHeight, 0)");
+        Thread.sleep(5000);
+        jsdriver.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        Thread.sleep(5000);*/
         
        //driver.findElement(By.cssSelector(".btn.btn-info")).click();
         
