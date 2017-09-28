@@ -1,6 +1,7 @@
 package com.phptravels.util;
 
 import java.io.File;
+import java.lang.reflect.Method;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.Random;
@@ -10,29 +11,51 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 //import com.phptravels.pagehelper.HeaderHelper;
 import com.phptravels.pagehelper.LoginHelper;
+
 import com.phptravels.pagehelper.AdvancedHelper;
 //import com.thoughtworks.selenium.Selenium;
 
 public abstract class DriverTestCase {
+	
+	private static final Logger logger = LoggerFactory.getLogger(DriverTestCase.class);
+	private static final String BREAK_LINE = "\n";//"</br>";
+	public static ExtentTest test;
+	public static ExtentReports extent;
 	
 	enum DriverType {
 		Firefox, IE, Chrome
 	}
 
 	private WebDriver driver;
-	//private Selenium selenium;		
-
+	//private Selenium selenium;	
 	
 	@BeforeSuite
-	public void setUp() {		
+	public void before() {
+		extent = new ExtentReports("target/surefire-reports/ExtentReport.html", true);
+	}
+
+	
+	@BeforeMethod
+	public void setUp(Method method) {		
 		PropertyReader propertyReader = new PropertyReader();
 		
 		
 		String driverType = propertyReader.readApplicationFile("BROWSER");		
+		
+		test = extent.startTest(method.getName(), this.getClass().getName());
+		test.assignAuthor("360Logica");
+		test.assignCategory(this.getClass().getSimpleName());
 		
 		//System.out.println(driverType);
 							
@@ -157,6 +180,15 @@ public abstract class DriverTestCase {
 		String absolutePathOfFirstFile = file.getAbsolutePath();
 		path = absolutePathOfFirstFile.replaceAll("\\\\+", "/");		
 		return path;
+	}
+	
+	/*Report logs*/
+	public void reportLog(String message) {
+		test.log(LogStatus.INFO, message);
+		message = BREAK_LINE + message;
+		logger.info("Message: " + message);
+		Reporter.log(message);
+		
 	}
 	
 	

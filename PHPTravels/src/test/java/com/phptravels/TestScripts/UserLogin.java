@@ -30,6 +30,7 @@ public class UserLogin extends DriverTestCase{
 		//HeaderHelper headerHelper = new HeaderHelper(getWebDriver());
 		
 		//Log into application with blank username and password	
+		reportLog("User is not entered PHPTravels username and password.");
 		loginHelper.clickLogin();
 		loginHelper.verifyLoginValidation();
 		System.out.println("Please enter correct username and password.");
@@ -81,6 +82,7 @@ public class UserLogin extends DriverTestCase{
 		HeaderHelper headerHelper = new HeaderHelper(getWebDriver());
 		
 		//Log into the application with valid credential
+		reportLog("User is required to login using a valid PHPTravels username and password.");
 		String username =  propertyReader.readApplicationFile("UserName");	
 		String password =  propertyReader.readApplicationFile("Password");	
 		loginHelper.enterUserName(username);
@@ -105,5 +107,7 @@ public class UserLogin extends DriverTestCase{
 		System.out.println("User is successfully logout from the application");
 		
 	}
+	
+	
 	
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43181" started-at="2017-09-22T11:47:23Z" finished-at="2017-09-22T11:48:06Z">
+  <suite name="Default suite" duration-ms="8927" started-at="2017-09-25T11:16:25Z" finished-at="2017-09-25T11:16:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43181" started-at="2017-09-22T11:47:23Z" finished-at="2017-09-22T11:48:06Z">
-      <class name="com.automation.practice.DynamicDropdownValueSelection">
-        <test-method status="PASS" signature="dynamicValueSelection()[pri:0, instance:com.automation.practice.DynamicDropdownValueSelection@5cc7c2a6]" name="dynamicValueSelection" duration-ms="43171" started-at="2017-09-22T17:17:23Z" finished-at="2017-09-22T17:18:06Z">
+    <test name="Default test" duration-ms="8927" started-at="2017-09-25T11:16:25Z" finished-at="2017-09-25T11:16:34Z">
+      <class name="com.automation.practice.PasswordVerification">
+        <test-method status="PASS" signature="fbPassword()[pri:0, instance:com.automation.practice.PasswordVerification@5cc7c2a6]" name="fbPassword" duration-ms="8919" started-at="2017-09-25T16:46:25Z" finished-at="2017-09-25T16:46:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicValueSelection -->
-      </class> <!-- com.automation.practice.DynamicDropdownValueSelection -->
+        </test-method> <!-- fbPassword -->
+      </class> <!-- com.automation.practice.PasswordVerification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

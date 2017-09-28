@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Simple Reporter Suite">
 
-<listeners>
+  <!-- <listeners>
     <listener class-name="com.phptravels.util.CustomReporter" />
-  </listeners>
+  </listeners> -->
 
 	<test name="Login Test cases">
 		<classes>
